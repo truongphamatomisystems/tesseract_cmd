@@ -21,7 +21,7 @@ int main()
 	}
 
 	// Open input image with leptonica library
-	Pix* image = pixRead("jp.png");
+	Pix* image = pixRead("crop.png");
 	api->SetImage(image);
 	int orient_deg;
 	float orient_conf;
